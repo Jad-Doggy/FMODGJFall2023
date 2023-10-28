@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{642b9d2a-7d41-4d45-8a7f-409c51db83cc}">
+		<property name="name">
+			<value>MasterHigh</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{8ee4c0e9-7ea2-4c12-b50a-07fc002cafdf}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f863738d-e417-47e2-a65b-2159b9d8b862}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4c8c7cfd-264d-4ca9-a356-adbc351fbe08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{8ee4c0e9-7ea2-4c12-b50a-07fc002cafdf}">
+		<relationship name="effects">
+			<destination>{a9cd747d-171b-4427-8a49-cf1e0a2e38c4}</destination>
+			<destination>{f8a0fb2c-233c-43dd-9676-23ac6799a04f}</destination>
+			<destination>{d4d6fcc0-e98d-46f4-b393-deebbbb0c8b4}</destination>
+			<destination>{2ed20cb4-3aa9-4dfe-b1ec-eb4a6cb535e1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f863738d-e417-47e2-a65b-2159b9d8b862}" />
+	<object class="MultibandEqEffect" id="{a9cd747d-171b-4427-8a49-cf1e0a2e38c4}">
+		<property name="filterTypeA">
+			<value>5</value>
+		</property>
+		<property name="frequencyA">
+			<value>5000</value>
+		</property>
+		<property name="qualityA">
+			<value>0.5</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{f8a0fb2c-233c-43dd-9676-23ac6799a04f}">
+		<property name="threshold">
+			<value>-32</value>
+		</property>
+		<property name="ratio">
+			<value>1.5</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>12</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{d4d6fcc0-e98d-46f4-b393-deebbbb0c8b4}">
+		<property name="threshold">
+			<value>-28.5</value>
+		</property>
+		<property name="ratio">
+			<value>2.79999995</value>
+		</property>
+	</object>
+	<object class="MixerBusFader" id="{2ed20cb4-3aa9-4dfe-b1ec-eb4a6cb535e1}" />
+</objects>

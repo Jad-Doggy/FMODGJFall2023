@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{0100d121-2c68-4c54-8f59-2fb4dc1bc44f}">
+		<property name="name">
+			<value>MasterLow</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{38a53ac4-edfc-4ae6-82b2-17d4a00eb714}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{8e887081-19fb-4cfe-87ab-b416a2e6fa30}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{4c8c7cfd-264d-4ca9-a356-adbc351fbe08}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{38a53ac4-edfc-4ae6-82b2-17d4a00eb714}">
+		<relationship name="effects">
+			<destination>{cb0bce20-2d54-4a28-8ea6-f4b51bbbc521}</destination>
+			<destination>{aa91981b-24fa-4420-ab8b-a9626467862e}</destination>
+			<destination>{fc7bf9e9-65c7-4897-b1ef-67fb6dbd0d9f}</destination>
+			<destination>{76886b69-e24a-4013-b505-4bc4f6828c1a}</destination>
+			<destination>{a90d1862-4525-46d1-8a8c-b6041dcc7ec2}</destination>
+			<destination>{15b3018f-4775-4060-a713-2b46a5ccc940}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{8e887081-19fb-4cfe-87ab-b416a2e6fa30}" />
+	<object class="MultibandEqEffect" id="{cb0bce20-2d54-4a28-8ea6-f4b51bbbc521}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+		<property name="frequencyA">
+			<value>300</value>
+		</property>
+		<property name="qualityA">
+			<value>0.5</value>
+		</property>
+		<property name="gainA">
+			<value>-2.068964</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{aa91981b-24fa-4420-ab8b-a9626467862e}">
+		<property name="threshold">
+			<value>-27</value>
+		</property>
+		<property name="ratio">
+			<value>2.79999995</value>
+		</property>
+		<property name="attackTime">
+			<value>0.100000001</value>
+		</property>
+		<property name="releaseTime">
+			<value>10</value>
+		</property>
+	</object>
+	<object class="DistortionEffect" id="{fc7bf9e9-65c7-4897-b1ef-67fb6dbd0d9f}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="level">
+			<value>0.00999999978</value>
+		</property>
+	</object>
+	<object class="LimiterEffect" id="{76886b69-e24a-4013-b505-4bc4f6828c1a}">
+		<property name="bypass">
+			<value>true</value>
+		</property>
+		<property name="ceiling">
+			<value>-12</value>
+		</property>
+		<property name="release">
+			<value>1</value>
+		</property>
+	</object>
+	<object class="LoudnessMeter" id="{a90d1862-4525-46d1-8a8c-b6041dcc7ec2}" />
+	<object class="MixerBusFader" id="{15b3018f-4775-4060-a713-2b46a5ccc940}" />
+</objects>
