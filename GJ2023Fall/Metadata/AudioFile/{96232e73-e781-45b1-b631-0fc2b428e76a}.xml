@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{79c914f2-7136-4f9e-b047-7c599243de77}">
+	<object class="AudioFile" id="{96232e73-e781-45b1-b631-0fc2b428e76a}">
 		<property name="assetPath">
-			<value>Shotgun Shell Insert Sound Effect [Download Link].mp3</value>
+			<value>G.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>44.0999985</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>2.9779591836734696</value>
+			<value>5</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f0017b89-7b7c-42b4-8981-82562f4e3795}</destination>
