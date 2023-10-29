@@ -32,7 +32,7 @@
 			<value>0</value>
 		</property>
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{642b9d2a-7d41-4d45-8a7f-409c51db83cc}</destination>
@@ -43,7 +43,7 @@
 			<value>0</value>
 		</property>
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{def2d038-061b-4c98-8081-22f984109ffb}</destination>
@@ -54,7 +54,7 @@
 			<value>0</value>
 		</property>
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{2f2716b3-1a77-40a4-a58d-39939d381cd1}</destination>
@@ -65,7 +65,7 @@
 			<value>0</value>
 		</property>
 		<property name="inputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{0100d121-2c68-4c54-8f59-2fb4dc1bc44f}</destination>
