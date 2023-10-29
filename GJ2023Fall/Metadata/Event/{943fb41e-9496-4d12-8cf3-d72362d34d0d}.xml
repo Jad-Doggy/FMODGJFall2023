@@ -93,10 +93,10 @@
 	<object class="MixerBusPanner" id="{41edf20c-5a26-4d82-8316-f068fd1cf6b5}" />
 	<object class="LoopRegion" id="{4a1c5558-a2e9-404f-a197-edd687f68da6}">
 		<property name="position">
-			<value>0</value>
+			<value>0.1572675681489252</value>
 		</property>
 		<property name="length">
-			<value>133.53795918367348</value>
+			<value>133.38069161552463</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{73e45953-535e-477c-9ce0-563ef0088c86}</destination>
