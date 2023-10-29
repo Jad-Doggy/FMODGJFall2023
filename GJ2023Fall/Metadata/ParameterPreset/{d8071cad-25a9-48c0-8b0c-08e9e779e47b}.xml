@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="ParameterPreset" id="{d8071cad-25a9-48c0-8b0c-08e9e779e47b}">
 		<property name="name">
-			<value>bossPhase</value>
+			<value>Boss Phase</value>
 		</property>
 		<relationship name="folder">
 			<destination>{13bf6ee1-5bf8-4e94-bd17-cd6fdc785b6e}</destination>
@@ -20,6 +20,9 @@
 		</property>
 		<property name="initialValue">
 			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1.1200000047683716</value>
 		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>
