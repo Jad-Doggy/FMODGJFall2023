@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fadaa3a7-5add-4639-a30b-411c0bd1dd46}">
+		<property name="assetPath">
+			<value>adderal.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1493877551020408</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f0017b89-7b7c-42b4-8981-82562f4e3795}</destination>
+		</relationship>
+	</object>
+</objects>

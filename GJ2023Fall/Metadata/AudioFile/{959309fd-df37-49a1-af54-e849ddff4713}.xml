@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{959309fd-df37-49a1-af54-e849ddff4713}">
+		<property name="assetPath">
+			<value>hurt6.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.65306122448979587</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f0017b89-7b7c-42b4-8981-82562f4e3795}</destination>
+		</relationship>
+	</object>
+</objects>

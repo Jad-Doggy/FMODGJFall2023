@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{40a74060-5465-440a-aa13-25606c089ced}">
+		<property name="name">
+			<value>tets</value>
+		</property>
+		<relationship name="folder">
+			<destination>{13bf6ee1-5bf8-4e94-bd17-cd6fdc785b6e}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c428f623-2c7e-45b7-b07e-2f97987ba734}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c428f623-2c7e-45b7-b07e-2f97987ba734}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
