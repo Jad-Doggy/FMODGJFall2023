@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{c5038f05-dd4c-472a-804b-0955f0ce0c27}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../GitHub/Fall2023GameJam/Assets/FMODAssets</value>
+			<value>../../Fall2023GameJam/Assets/FMODAssets</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{33222803-6274-4cd3-9eef-32931c676b60}</destination>
