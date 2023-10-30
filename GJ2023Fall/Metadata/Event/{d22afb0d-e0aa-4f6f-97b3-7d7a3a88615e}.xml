@@ -75,6 +75,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2f01dc5c-3a4b-4e42-a0aa-6e293cff7387}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{56773471-d610-49e4-a1d6-2433f38221df}</destination>
 		</relationship>
@@ -124,8 +127,9 @@
 	<object class="MixerBusEffectChain" id="{56773471-d610-49e4-a1d6-2433f38221df}">
 		<relationship name="effects">
 			<destination>{01ba5c3d-5979-44ff-b1a4-a038cb2eda35}</destination>
-			<destination>{d6acb01e-3321-42e6-839b-d81bc25de6f1}</destination>
 			<destination>{59b32ef7-0fe0-41c2-82d5-bd0062a0f303}</destination>
+			<destination>{4edd48c7-472c-4420-8e21-4984ccdf9450}</destination>
+			<destination>{d6acb01e-3321-42e6-839b-d81bc25de6f1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{a1bae388-d2bc-477f-bf8e-469a3f80177d}" />
@@ -142,12 +146,23 @@
 			<destination>{8b366720-d34c-4f56-9b94-8d624a441b8d}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusFader" id="{d6acb01e-3321-42e6-839b-d81bc25de6f1}" />
 	<object class="PitchShifterEffect" id="{59b32ef7-0fe0-41c2-82d5-bd0062a0f303}">
 		<property name="pitch">
 			<value>1.15999997</value>
 		</property>
 	</object>
+	<object class="MixerSend" id="{4edd48c7-472c-4420-8e21-4984ccdf9450}">
+		<property name="level">
+			<value>0</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{d4265846-f05e-474a-bd2d-99591b80e4b3}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusFader" id="{d6acb01e-3321-42e6-839b-d81bc25de6f1}" />
 	<object class="MixerBusFader" id="{af36d91b-3180-4d27-90f1-7de7c822b483}" />
 	<object class="LimiterEffect" id="{4f493b82-cdfd-46e5-81cf-54be7411d5c1}">
 		<property name="ceiling">
